@@ -7,7 +7,7 @@ COPY . .
 
 RUN mvn clean package
 
-# Stage 2 - Runtim
+# Stage 2 - Runtime 
 FROM eclipse-temurin:17
 
 WORKDIR /app
